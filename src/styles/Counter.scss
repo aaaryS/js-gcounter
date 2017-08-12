@@ -1,0 +1,34 @@
+@import 'variables';
+
+.counter-container__item {
+  width: $item-size;
+  height: $item-size;
+  background: #efefef;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.counter-container__item--clicked {
+  box-shadow: 0 0 20px rgb(255, 0, 0);
+  transition: border 0.3s ease-in-out;
+}
+
+.counter-container__item__header {
+  background: #d2d2d2;
+  font-size: 12px;
+  line-height: 2em;
+  color: #4e4e4e;
+}
+
+.counter-container__item__value {
+  height: 1.8em;
+  line-height: 1.8em;
+  font-size: 1.6em;
+}
+
+.counter-container__item__button {
+  border: 0;
+  background: #868686;
+  color: white;
+}
