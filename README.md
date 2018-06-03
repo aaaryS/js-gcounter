@@ -22,3 +22,6 @@ UI is working with amount from range 2-9, but logic can hold much more counters.
 ```
 sudo npm test
 ```
+
+##### 3. Live demo
+http://maj.design/js-gcounter/
