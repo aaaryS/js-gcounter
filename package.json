@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --colors",
+    "build": "webpack",
     "test": "jest"
   },
   "ava": {
@@ -33,7 +34,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.4",
     "uuid": "^3.1.0",
-    "webpack": "^3.0.0",
+    "webpack": "2.5.1",
     "webpack-dev-server": "^2.5.0"
   },
   "devDependencies": {
@@ -52,6 +53,8 @@
     "react-addons-test-utils": "^15.4",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
+    "webpack-cli": "^3.0.1",
+    "webpack-merge": "^4.1.2",
     "worker-loader": "^0.8.1"
   }
 }

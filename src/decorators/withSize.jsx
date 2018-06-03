@@ -10,7 +10,6 @@ const withSize = (WrappedComponent) => {
     componentDidMount() {
       if(this.divElement) {
         const size = this.divElement.clientHeight
-        console.log(size)
         this.setState({size})
         }
       }
